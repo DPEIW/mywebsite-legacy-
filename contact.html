@@ -1,123 +1,36 @@
 <!DOCTYPE html>
-<html lang="en" data-page="contact">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio — Contact</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <div class="cursor" id="cursor"></div>
+    <main>
+        <section class="slide-in">
+            <h1>Contact me</h1>
+            <br> </br>
+            <p> Email:pranav.vishwas@proton.me</p>
+            <p> </p>
+        </section>
+    </main>
 
-  <header>
-    <a href="index.html" class="nav-logo">PORTFOLIO</a>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="nav-status">
-      <div class="status-dot"></div>
-      ONLINE // UW–MADISON
-    </div>
-  </header>
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
 
-  <main>
-
-    <!-- PAGE HERO -->
-    <div class="page-hero">
-      <div class="page-hero-stripe"></div>
-      <div class="page-hero-content">
-        <div class="page-hero-bg"></div>
-        <p class="page-hero-eyebrow">// UPLINK REQUEST — ESTABLISH COMMS</p>
-        <h1 class="page-hero-title">Get in<br><span style="color:var(--acid)">Touch</span></h1>
-      </div>
-    </div>
-
-    <!-- PAGE BODY -->
-    <div class="page-content">
-      <div class="page-sidebar"></div>
-      <div class="page-body">
-
-        <div class="contact-page-grid fade-up">
-
-          <!-- FORM -->
-          <div>
-            <div style="margin-bottom:2rem;">
-              <p style="font-size:1rem; font-weight:300; line-height:1.75; color:rgba(240,240,238,0.6); max-width:48ch;">
-                Have a project in mind, want to collaborate, or just want to say hello? Send a message and I'll get back to you.
-              </p>
-            </div>
-
-            <div class="form-group">
-              <label for="name">// Name</label>
-              <input type="text" id="name" name="name" placeholder="Your name" autocomplete="off" />
-            </div>
-            <div class="form-group">
-              <label for="email">// Email</label>
-              <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="off" />
-            </div>
-            <div class="form-group">
-              <label for="subject">// Subject</label>
-              <input type="text" id="subject" name="subject" placeholder="What's this about?" autocomplete="off" />
-            </div>
-            <div class="form-group">
-              <label for="message">// Message</label>
-              <textarea id="message" name="message" placeholder="Your message..."></textarea>
-            </div>
-            <div style="margin-top:2rem;">
-              <button type="submit" class="btn btn-primary" onclick="handleSubmit(event)">
-                ▶ &nbsp;Send Message
-              </button>
-            </div>
-            <p id="form-confirm" style="display:none; margin-top:1.5rem; font-family:var(--font-mono); font-size:0.7rem; letter-spacing:0.1em; color:var(--acid);">
-              // MESSAGE TRANSMITTED — I'LL BE IN TOUCH
-            </p>
-          </div>
-
-          <!-- LINKS -->
-          <div>
-            <div style="margin-bottom:2rem;">
-              <span class="section-number">OR FIND ME AT ——</span>
-            </div>
-            <div class="contact-links">
-              <a href="mailto:vishwas@wisc.edu" class="contact-link">
-                <span class="link-icon">MAIL</span>
-                <span class="link-text">vishwas@wisc.edu</span>
-              </a>
-              <a href="https://github.com/dpeiw" target="_blank" rel="noopener" class="contact-link">
-                <span class="link-icon">GH</span>
-                <span class="link-text">GitHub</span>
-              </a>
-              <a href="https://www.linkedin.com/in/pranav-vishwas-b6b097309/" target="_blank" rel="noopener" class="contact-link">
-                <span class="link-icon">LI</span>
-                <span class="link-text">LinkedIn</span>
-              </a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-
-  </main>
-
-  <footer>
-    <span class="footer-copy">&copy; 2025 Pranav Vishwas. All rights reserved.</span>
-    <span class="footer-mark">PORTFOLIO // V.01</span>
-  </footer>
-
-  <script src="script.js"></script>
-  <script>
-    function handleSubmit(e) {
-      e.preventDefault();
-      document.getElementById('form-confirm').style.display = 'block';
-    }
-  </script>
+    <script src="script.js"></script>
 </body>
 </html>

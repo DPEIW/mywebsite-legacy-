@@ -1,366 +1,137 @@
 <!DOCTYPE html>
-<html lang="en" data-page="projects">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio &mdash; Projects</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <div class="cursor" id="cursor"></div>
+    <main>
+        <section class="slide-in">
+            <h2>My Projects</h2>
+            <p>Here are my notable projects</p>
+            <br>
 
-  <header>
-    <a href="index.html" class="nav-logo">PORTFOLIO</a>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="nav-status">
-      <div class="status-dot"></div>
-      ONLINE // UW-MADISON
-    </div>
-  </header>
+            <ol>
+                <li>
+                    <h3>Personal Website</h3>
+                    <p>Made using HTML, CSS from scratch and hosted on GitHub. Used for showcasing my portfolio and projects.</p>
+                    <a href="https://dpeiw.github.io/mywebsite" target="_blank">View Project</a>
+                </li>
 
-  <main>
+                <li>
+                    <h3>ICTS Job Shadow Website</h3>
+                    <p>Made using HTML, CSS from scratch and hosted on GitHub. Used for organizing and providing the Python notebooks and lecture notes during my time at ICTS.</p>
+                    <a href="https://dpeiw.github.io/ICTSjobshadow" target="_blank">View Project</a>
+                </li>
+                <li> 
+                    <h3>Eunoia Magazine Website</h3>
+                    <p>Website made using HTML, CSS, and JavaScript for the Eunoia Magazine, which I have led since 2021. Used for displaying the latest editions magazine.</p>
+                    <a href="https://eunoiabyowis.github.io/magazines/" target="_blank">View Project</a>
+                </li>
+                <li>
+                    <h3>IB Resources Website</h3>
+                    <p>Website compiling free IBDP and MYP resources to help fellow students in the curriculum.</p>
+                    <a href="https://sites.google.com/view/ib-all-resources/home" target="_blank">View Project</a>
+                </li>
 
-    <!-- PAGE HERO -->
-    <div class="page-hero">
-      <div class="page-hero-stripe"></div>
-      <div class="page-hero-content">
-        <div class="page-hero-bg"></div>
-        <p class="page-hero-eyebrow">// ARTIFACT CACHE &mdash; RUNNER INTEL</p>
-        <h1 class="page-hero-title">My<br><span style="color:var(--acid)">Projects</span></h1>
-      </div>
-    </div>
+                <li>
+                    <h3>MYP Personal Project</h3>
+                    <p>Conducted extensive research through articles, online sources, and user interviews. Recommended implementing battery swapping stations to improve EV charging speed and convenience. Created a 3D animation using Blender to illustrate the concept.</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_UWvGUib3hU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Gained skills in modeling, rigging, animating, and utilizing computer capabilities for rendering.</p>
+                </li>
 
-    <!-- PAGE BODY -->
-    <div class="page-content">
-      <div class="page-sidebar"></div>
-      <div class="page-body">
+                <li>
+                    <h3>History of Internet Video</h3>
+                    <p>Video outlining the history of the internet for the Individuals and Societies subject.</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/df5x_Ast-00" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </li>
 
-        <div class="fade-up" style="margin-bottom:3rem; max-width:60ch;">
-          <p style="font-size:1rem; font-weight:300; line-height:1.75; color:rgba(240,240,238,0.6);">
-            A selection of things I have built, designed, repaired, and prototyped across web, design, engineering, and hands-on hardware work.
-          </p>
-        </div>
+                <li>
+                    <h3>SpaceX Physics</h3>
+                    <p>Website made in 8th grade analyzing the launch of the SpaceX Falcon 9 rocket.</p>
+                    <a href="https://15sb0019-pranav.wixsite.com/final-exam-portfolio/physics" target="_blank">View Project</a>
+                </li>
 
-        <!-- PROJECT CARDS -->
-        <div class="fade-up">
-          <div class="project-full-card">
-            <div style="display:flex; justify-content:space-between; align-items:start; flex-wrap:wrap; gap:1rem; margin-bottom:0.75rem;">
-              <h3 class="project-full-title">Formula SAE Pitot Tube DAQ Board</h3>
-              <span class="tac-label">Formula SAE / PCB</span>
-            </div>
-            <p class="project-full-desc">Designed and iterated a pitot tube data acquisition PCB for Wisconsin Racing's aerodynamics system. The board reads airspeed sensor data, conditions the signal, and interfaces with an ESP32 so the team can debug and validate vehicle aero behavior more efficiently.</p>
-            <div class="project-tags" style="margin: 1rem 0;">
-              <span class="project-tag">Altium</span>
-              <span class="project-tag">PCB Layout</span>
-              <span class="project-tag">ESP32</span>
-              <span class="project-tag">Signal Conditioning</span>
-            </div>
-          </div>
-        </div>
+                <li>
+                    <h3>Refurbishing Old Laptops</h3>
+                    <p>Upgrading old laptops, such as replacing the HDD with a solid-state drive (SSD) to improve performance. Repurposed the drive from a broken laptop as external storage.</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BwG_wnAhens" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </li>
 
-        <div class="fade-up">
-          <div class="project-full-card">
-            <div style="display:flex; justify-content:space-between; align-items:start; flex-wrap:wrap; gap:1rem; margin-bottom:0.75rem;">
-              <h3 class="project-full-title">Casio FX-CG50 Li-Po Charge Modification</h3>
-              <span class="tac-label">Power Electronics</span>
-            </div>
-            <p class="project-full-desc">Designed a custom PCB to replace AAA batteries with a USB-C rechargeable Li-Po system. The design integrates charging, protection, voltage regulation, and power management while keeping the calculator's original form factor usable.</p>
-            <div class="project-tags" style="margin: 1rem 0;">
-              <span class="project-tag">Altium</span>
-              <span class="project-tag">USB-C</span>
-              <span class="project-tag">Li-Po</span>
-              <span class="project-tag">Circuit Design</span>
-            </div>
-          </div>
-        </div>
+                <li>
+                    <h3>Lego Mindstorms Cleaning Robot</h3>
+                    <p>Built and programmed a sweeping robot during COVID-19 lockdown using Lego Mindstorms.</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/n8SYmI2FfnU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </li>
 
-        <div class="fade-up">
-          <div class="project-full-card">
-            <div style="display:flex; justify-content:space-between; align-items:start; flex-wrap:wrap; gap:1rem; margin-bottom:0.75rem;">
-              <h3 class="project-full-title">PC Performance Optimization & Hardware Refurbishment</h3>
-              <span class="tac-label">Diagnostics</span>
-            </div>
-            <p class="project-full-desc">Optimized desktop systems through component selection, benchmarking, undervolting, and thermal tuning. I also refurbished malfunctioning laptops through teardown, diagnostics, and component replacement, including restoring a ThinkPad X1 Carbon with donor parts.</p>
-            <div class="project-tags" style="margin: 1rem 0;">
-              <span class="project-tag">Benchmarking</span>
-              <span class="project-tag">Thermals</span>
-              <span class="project-tag">Diagnostics</span>
-              <span class="project-tag">Repair</span>
-            </div>
-          </div>
-        </div>
+                <li>
+                    <h3>Paper Plane Launcher</h3>
+                    <p>Used motors and other components to build a paper plane launcher to accompany a physics activity in school.</p>
+                </li>
 
-        <div class="fade-up">
-          <div class="project-full-card">
-            <div style="display:flex; justify-content:space-between; align-items:start; flex-wrap:wrap; gap:1rem; margin-bottom:0.75rem;">
-              <h3 class="project-full-title">Home Server & Virtualization Lab</h3>
-              <span class="tac-label">Systems</span>
-            </div>
-            <p class="project-full-desc">Built a self-hosted server environment for NAS storage, Docker services, and Proxmox virtual machines. The setup gives me more control over my tools, reduces reliance on cloud services, and doubles as a lab for Linux, networking, and local AI workflows.</p>
-            <div class="project-tags" style="margin: 1rem 0;">
-              <span class="project-tag">Proxmox</span>
-              <span class="project-tag">Docker</span>
-              <span class="project-tag">Linux</span>
-              <span class="project-tag">Networking</span>
-            </div>
-          </div>
-        </div>
+                <li>
+                    <h3>DIY Racing Wheel</h3>
+                    <p>Built a steering wheel out of cardboard and two discarded mice to control racing games. Used AutoHotkey to experiment with control scripts.</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/oyd8RLmHzEg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </li>
 
-        <div class="fade-up">
-          <div class="project-full-card">
-            <div style="display:flex; justify-content:space-between; align-items:start; flex-wrap:wrap; gap:1rem; margin-bottom:0.75rem;">
-              <h3 class="project-full-title">Heatsink Airflow Optimization</h3>
-              <span class="tac-label">CFD / Research</span>
-            </div>
-            <p class="project-full-desc">For my IBDP Extended Essay, I studied how airflow affects heatsink performance using controlled thermal experiments and ANSYS Fluent simulations. The goal was to connect real measurements with CFD models and better understand practical heat dissipation.</p>
-            <div class="project-tags" style="margin: 1rem 0;">
-              <span class="project-tag">ANSYS Fluent</span>
-              <span class="project-tag">CFD</span>
-              <span class="project-tag">Thermal Testing</span>
-              <span class="project-tag">Research</span>
-            </div>
-          </div>
-        </div>
+                <li>
+                    <h3>DIY Ultralight Mouse</h3>
+                    <p>Used parts from an old wireless mouse and gave it a new shell, prototyped using Blender and crafted using foam board.</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JBzLMjJY-K0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </li>
 
-        <div class="fade-up">
-          <div class="project-full-card">
-            <div style="display:flex; justify-content:space-between; align-items:start; flex-wrap:wrap; gap:1rem; margin-bottom:0.75rem;">
-              <h3 class="project-full-title">Personal Website</h3>
-              <span class="tac-label">Web</span>
-            </div>
-            <p class="project-full-desc">Made using HTML and CSS from scratch and hosted on GitHub. Used for showcasing my portfolio and projects.</p>
-            <div class="project-tags" style="margin: 1rem 0;">
-              <span class="project-tag">HTML</span>
-              <span class="project-tag">CSS</span>
-              <span class="project-tag">GitHub Pages</span>
-            </div>
-            <a href="https://dpeiw.github.io/mywebsite" target="_blank" rel="noopener" class="project-full-link">View Project &nbsp;&rarr;</a>
-          </div>
-        </div>
+                <li>
+                    <h3>MYP Design Projects</h3>
+                    <ul>
+                        <li>MYP 4: App that helps users acclimatize with the cultures of foreign countries. 
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/JywXRGzsQTU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>
+                        <li>
+                            <h3>MYP 5: Prototype of a Braille Keyboard</h3>
+                            <p>Prototype of a braille keyboard with a built-in display to aid the visually impaired. 
+                                The mechanism reads the content of a text box and makes it possible to feel the pattern. Prototype modeled in Blender and mechanism made using lego</p>
+                            <br> </br>
+                            <img src="braillekeyboardblender.png" alt="Braille Keyboard Blender Prototype"  width="360" height="250" onclick="openModal(this)">
+                            <img src="braileekeyboardlego.jpg" alt="Braille Keyboard Lego Prototype"  width="360" height="250" onclick="openModal(this)">
+                        </li>
+                        <li>
+                            <h3>MYP 5: Physical Gym Prototype</h3>
+                            <p>Physical prototype of a gym proposed for the school to aid students in improving physical fitness.</p>
+                            <br> </br>
+                            <img src="IMG-8535.jpg" alt="Gym Prototype Image 1" width="360" height="250" onclick="openModal(this)">
+                            <img src="IMG-8536.jpg" alt="Gym Prototype Image 2" width="360" height="250" onclick="openModal(this)">
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </section> 
+    </main>
 
-        <div class="fade-up">
-          <div class="project-full-card">
-            <div style="display:flex; justify-content:space-between; align-items:start; flex-wrap:wrap; gap:1rem; margin-bottom:0.75rem;">
-              <h3 class="project-full-title">ICTS Job Shadow Website</h3>
-              <span class="tac-label">Web</span>
-            </div>
-            <p class="project-full-desc">Made using HTML and CSS from scratch and hosted on GitHub. Used for organizing and providing Python notebooks and lecture notes during my time at ICTS.</p>
-            <div class="project-tags" style="margin: 1rem 0;">
-              <span class="project-tag">HTML</span>
-              <span class="project-tag">CSS</span>
-              <span class="project-tag">Python</span>
-            </div>
-            <a href="https://dpeiw.github.io/ICTSjobshadow" target="_blank" rel="noopener" class="project-full-link">View Project &nbsp;&rarr;</a>
-          </div>
-        </div>
-
-        <div class="fade-up">
-          <div class="project-full-card">
-            <div style="display:flex; justify-content:space-between; align-items:start; flex-wrap:wrap; gap:1rem; margin-bottom:0.75rem;">
-              <h3 class="project-full-title">IB Resources Website</h3>
-              <span class="tac-label">Web</span>
-            </div>
-            <p class="project-full-desc">Website compiling free IBDP and MYP resources to help fellow students in the curriculum.</p>
-            <div class="project-tags" style="margin: 1rem 0;">
-              <span class="project-tag">IBDP</span>
-              <span class="project-tag">MYP</span>
-              <span class="project-tag">Resources</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="fade-up">
-          <div class="project-full-card">
-            <div style="display:flex; justify-content:space-between; align-items:start; flex-wrap:wrap; gap:1rem; margin-bottom:0.75rem;">
-              <h3 class="project-full-title">MYP Personal Project</h3>
-              <span class="tac-label">Research / 3D</span>
-            </div>
-            <p class="project-full-desc">Conducted research through articles, online sources, and user interviews. Recommended battery swapping stations to improve EV charging speed and convenience, then created a Blender animation to illustrate the concept.</p>
-            <div class="project-tags" style="margin: 1rem 0;">
-              <span class="project-tag">Research</span>
-              <span class="project-tag">Blender</span>
-              <span class="project-tag">Animation</span>
-            </div>
-            <div class="project-media">
-              <iframe src="https://www.youtube.com/embed/_UWvGUib3hU" title="MYP Personal Project animation" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <p class="project-full-desc project-note">Gained skills in modeling, rigging, animating, and using computer hardware effectively for rendering.</p>
-          </div>
-        </div>
-
-        <div class="fade-up">
-          <div class="project-full-card">
-            <div style="display:flex; justify-content:space-between; align-items:start; flex-wrap:wrap; gap:1rem; margin-bottom:0.75rem;">
-              <h3 class="project-full-title">History of Internet Video</h3>
-              <span class="tac-label">Video</span>
-            </div>
-            <p class="project-full-desc">Video outlining the history of the internet for the Individuals and Societies subject.</p>
-            <div class="project-tags" style="margin: 1rem 0;">
-              <span class="project-tag">Video</span>
-              <span class="project-tag">Research</span>
-            </div>
-            <div class="project-media">
-              <iframe src="https://www.youtube.com/embed/df5x_Ast-00" title="History of Internet video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-
-        <div class="fade-up">
-          <div class="project-full-card">
-            <div style="display:flex; justify-content:space-between; align-items:start; flex-wrap:wrap; gap:1rem; margin-bottom:0.75rem;">
-              <h3 class="project-full-title">SpaceX Physics</h3>
-              <span class="tac-label">Web / Physics</span>
-            </div>
-            <p class="project-full-desc">Website made in 8th grade analyzing the launch of the SpaceX Falcon 9 rocket.</p>
-            <div class="project-tags" style="margin: 1rem 0;">
-              <span class="project-tag">Physics</span>
-              <span class="project-tag">Web</span>
-              <span class="project-tag">SpaceX</span>
-            </div>
-            <a href="https://15sb0019-pranav.wixsite.com/final-exam-portfolio/physics" target="_blank" rel="noopener" class="project-full-link">View Project &nbsp;&rarr;</a>
-          </div>
-        </div>
-
-        <div class="fade-up">
-          <div class="project-full-card">
-            <div style="display:flex; justify-content:space-between; align-items:start; flex-wrap:wrap; gap:1rem; margin-bottom:0.75rem;">
-              <h3 class="project-full-title">Refurbishing Old Laptops</h3>
-              <span class="tac-label">Hardware</span>
-            </div>
-            <p class="project-full-desc">Upgraded old laptops, including replacing an HDD with an SSD to improve performance. Repurposed the drive from a broken laptop as external storage.</p>
-            <div class="project-tags" style="margin: 1rem 0;">
-              <span class="project-tag">Hardware</span>
-              <span class="project-tag">Repair</span>
-              <span class="project-tag">Storage</span>
-            </div>
-            <div class="project-media">
-              <iframe src="https://www.youtube.com/embed/BwG_wnAhens" title="Refurbishing old laptops video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-
-        <div class="fade-up">
-          <div class="project-full-card">
-            <div style="display:flex; justify-content:space-between; align-items:start; flex-wrap:wrap; gap:1rem; margin-bottom:0.75rem;">
-              <h3 class="project-full-title">Lego Mindstorms Cleaning Robot</h3>
-              <span class="tac-label">Robotics</span>
-            </div>
-            <p class="project-full-desc">Built and programmed a sweeping robot during COVID-19 lockdown using Lego Mindstorms.</p>
-            <div class="project-tags" style="margin: 1rem 0;">
-              <span class="project-tag">Robotics</span>
-              <span class="project-tag">Lego Mindstorms</span>
-              <span class="project-tag">Programming</span>
-            </div>
-            <div class="project-media">
-              <iframe src="https://www.youtube.com/embed/n8SYmI2FfnU" title="Lego Mindstorms cleaning robot video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-
-        <div class="fade-up">
-          <div class="project-full-card">
-            <div style="display:flex; justify-content:space-between; align-items:start; flex-wrap:wrap; gap:1rem; margin-bottom:0.75rem;">
-              <h3 class="project-full-title">Paper Plane Launcher</h3>
-              <span class="tac-label">Prototype</span>
-            </div>
-            <p class="project-full-desc">Used motors and other components to build a paper plane launcher to accompany a physics activity in school.</p>
-            <div class="project-tags" style="margin: 1rem 0;">
-              <span class="project-tag">Physics</span>
-              <span class="project-tag">Motors</span>
-              <span class="project-tag">Prototype</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="fade-up">
-          <div class="project-full-card">
-            <div style="display:flex; justify-content:space-between; align-items:start; flex-wrap:wrap; gap:1rem; margin-bottom:0.75rem;">
-              <h3 class="project-full-title">DIY Racing Wheel</h3>
-              <span class="tac-label">Hardware / Controls</span>
-            </div>
-            <p class="project-full-desc">Built a steering wheel out of cardboard and two discarded mice to control racing games. Used AutoHotkey to experiment with control scripts.</p>
-            <div class="project-tags" style="margin: 1rem 0;">
-              <span class="project-tag">Hardware</span>
-              <span class="project-tag">AutoHotkey</span>
-              <span class="project-tag">Gaming</span>
-            </div>
-            <div class="project-media">
-              <iframe src="https://www.youtube.com/embed/oyd8RLmHzEg" title="DIY racing wheel video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-
-        <div class="fade-up">
-          <div class="project-full-card">
-            <div style="display:flex; justify-content:space-between; align-items:start; flex-wrap:wrap; gap:1rem; margin-bottom:0.75rem;">
-              <h3 class="project-full-title">DIY Ultralight Mouse</h3>
-              <span class="tac-label">Hardware / Design</span>
-            </div>
-            <p class="project-full-desc">Used parts from an old wireless mouse and gave it a new shell, prototyped using Blender and crafted using foam board.</p>
-            <div class="project-tags" style="margin: 1rem 0;">
-              <span class="project-tag">Hardware</span>
-              <span class="project-tag">Blender</span>
-              <span class="project-tag">Foam Board</span>
-            </div>
-            <div class="project-media">
-              <iframe src="https://www.youtube.com/embed/JBzLMjJY-K0" title="DIY ultralight mouse video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-
-        <div class="fade-up">
-          <div class="project-full-card">
-            <div style="display:flex; justify-content:space-between; align-items:start; flex-wrap:wrap; gap:1rem; margin-bottom:0.75rem;">
-              <h3 class="project-full-title">MYP Design Projects</h3>
-              <span class="tac-label">Design</span>
-            </div>
-            <p class="project-full-desc">A set of MYP design prototypes and explorations, including an app concept, a braille keyboard prototype, and a physical gym prototype.</p>
-            <div class="project-tags" style="margin: 1rem 0;">
-              <span class="project-tag">MYP Design</span>
-              <span class="project-tag">Prototype</span>
-              <span class="project-tag">Accessibility</span>
-            </div>
-
-            <div class="project-subitem">
-              <h4>MYP 4: Culture Acclimatization App</h4>
-              <p>App concept that helps users acclimatize with the cultures of foreign countries.</p>
-              <div class="project-media">
-                <iframe src="https://www.youtube.com/embed/JywXRGzsQTU" title="MYP 4 design app video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-            </div>
-
-            <div class="project-subitem">
-              <h4>MYP 5: Prototype of a Braille Keyboard</h4>
-              <p>Prototype of a braille keyboard with a built-in display to aid the visually impaired. The mechanism reads the content of a text box and makes it possible to feel the pattern.</p>
-              <img class="project-image" src="images/braillekeyboardblender.png" alt="Braille Keyboard Prototype">
-            </div>
-
-            <div class="project-subitem">
-              <h4>MYP 5: Physical Gym Prototype</h4>
-              <p>Physical prototype of a gym proposed for the school to aid students in improving physical fitness.</p>
-              <img class="project-image" src="images/IMG-8535.jpg" alt="Gym Prototype">
-            </div>
-          </div>
-        </div>
-
-      </div>
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
     </div>
 
-  </main>
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
 
-  <footer>
-    <span class="footer-copy">&copy; 2025 Pranav Vishwas. All rights reserved.</span>
-    <span class="footer-mark">PORTFOLIO // V.01</span>
-  </footer>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
