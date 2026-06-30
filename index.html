@@ -1,34 +1,226 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-page="home">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio &mdash; Home</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section class="slide-in">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Explore my projects, skills, and more!</p>
-        </section>
-    </main>
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor"></div>
 
-    <footer>
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
-    </footer>
+  <!-- HEADER -->
+  <header>
+    <a href="index.html" class="nav-logo">PORTFOLIO</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-status">
+      <div class="status-dot"></div>
+      ONLINE // UW-MADISON
+    </div>
+  </header>
 
-    <script src="script.js"></script>
+  <!-- MAIN -->
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+
+      <!-- Left green stripe -->
+      <div class="hero-stripe">
+        <span class="hero-stripe-text">PORTFOLIO 2026</span>
+        <div class="hero-stripe-icons">
+          <span>▲</span>
+          <span>◼</span>
+          <span>●</span>
+        </div>
+      </div>
+
+      <!-- Hero text -->
+      <div class="hero-content">
+        <p class="hero-eyebrow">// RUNNER IDENTIFIED &mdash; UPLINK ESTABLISHED</p>
+        <h1 class="hero-title">
+          PRANAV<br>
+          <em>VISHWAS</em>
+        </h1>
+        <div class="hero-rule"></div>
+        <p class="hero-sub">
+          Electrical and computer engineering student at UW-Madison, building practical hardware, embedded systems, and self-hosted tools.
+        </p>
+        <div class="hero-cta">
+          <a href="projects.html" class="btn btn-primary">▶ &nbsp;View Projects</a>
+          <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+        </div>
+      </div>
+
+      <!-- Right decorative panel -->
+      <div class="hero-panel">
+        <div class="hero-panel-bg"></div>
+        <div class="hero-grid-overlay"></div>
+        <div class="hero-big-x">X</div>
+        <div class="hero-hud">
+          AEE 23-1902<br>
+          RUNNER CLASS: ECE<br>
+          STATUS: ACTIVE<br>
+          ------------<br>
+          LAT: 43.07 DEG N<br>
+          LNG: 89.40 DEG W<br>
+          ------------<br>
+          BUILD: 2026.06
+        </div>
+        <div class="hero-tags">
+          <div class="hero-tag">Embedded Hardware</div>
+          <div class="hero-tag">ECE</div>
+          <div class="hero-tag">UW-Madison</div>
+        </div>
+      </div>
+
+      <!-- Bottom status bar -->
+      <div class="hero-bar">
+        <div class="hero-bar-item"><span>05</span> Featured Projects</div>
+        <div class="hero-bar-item"><span>&infin;</span> Bench Tests</div>
+        <div class="hero-bar-item"><span>01</span> ECE Student</div>
+      </div>
+    </section>
+
+    <!-- SKILLS TICKER -->
+    <div class="skills-strip">
+      <div class="skills-ticker" id="ticker">
+        <span>JavaScript</span><span class="sep">+</span>
+        <span>Python</span><span class="sep">+</span>
+        <span>PCB Design</span><span class="sep">+</span>
+        <span>Altium</span><span class="sep">+</span>
+        <span>ESP32</span><span class="sep">+</span>
+        <span>Docker</span><span class="sep">+</span>
+        <span>Proxmox</span><span class="sep">+</span>
+        <span>ANSYS Fluent</span><span class="sep">+</span>
+        <span>Linux</span><span class="sep">+</span>
+        <!-- duplicate for seamless loop -->
+        <span>JavaScript</span><span class="sep">+</span>
+        <span>Python</span><span class="sep">+</span>
+        <span>PCB Design</span><span class="sep">+</span>
+        <span>Altium</span><span class="sep">+</span>
+        <span>ESP32</span><span class="sep">+</span>
+        <span>Docker</span><span class="sep">+</span>
+        <span>Proxmox</span><span class="sep">+</span>
+        <span>ANSYS Fluent</span><span class="sep">+</span>
+        <span>Linux</span><span class="sep">+</span>
+      </div>
+    </div>
+
+    <!-- FEATURED PROJECTS -->
+    <section class="section projects-section">
+      <div class="section-header fade-up">
+        <span class="section-number">02 &mdash;&mdash;</span>
+        <div class="section-title-line">
+          <h2 class="section-title">Projects</h2>
+        </div>
+      </div>
+
+      <div class="projects-grid">
+        <div class="projects-sidebar"></div>
+        <div class="projects-list">
+
+          <a href="projects.html" class="project-card fade-up">
+            <span class="project-num">01</span>
+            <div class="project-info">
+              <h3 class="project-title">Formula SAE Pitot Tube DAQ</h3>
+              <p class="project-desc">A custom PCB for Wisconsin Racing that reads airspeed sensor data, conditions the signal, and feeds an ESP32 for aerodynamics testing.</p>
+              <div class="project-tags">
+                <span class="project-tag">Altium</span>
+                <span class="project-tag">ESP32</span>
+                <span class="project-tag">PCB</span>
+              </div>
+            </div>
+            <span class="project-arrow">&rarr;</span>
+          </a>
+
+          <a href="projects.html" class="project-card fade-up">
+            <span class="project-num">02</span>
+            <div class="project-info">
+              <h3 class="project-title">Casio Li-Po USB-C Mod</h3>
+              <p class="project-desc">A rechargeable power board that replaces AAA batteries in a Casio FX-CG50 while preserving the calculator's original form factor.</p>
+              <div class="project-tags">
+                <span class="project-tag">Power</span>
+                <span class="project-tag">USB-C</span>
+                <span class="project-tag">Li-Po</span>
+              </div>
+            </div>
+            <span class="project-arrow">&rarr;</span>
+          </a>
+
+          <a href="projects.html" class="project-card fade-up">
+            <span class="project-num">03</span>
+            <div class="project-info">
+              <h3 class="project-title">Home Server Lab</h3>
+              <p class="project-desc">A self-hosted Proxmox and Docker setup for storage, local services, Linux practice, and low-latency local AI workflows.</p>
+              <div class="project-tags">
+                <span class="project-tag">Proxmox</span>
+                <span class="project-tag">Docker</span>
+                <span class="project-tag">Linux</span>
+              </div>
+            </div>
+            <span class="project-arrow">&rarr;</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT TEASER -->
+    <section class="section about-section">
+      <div class="section-header fade-up">
+        <span class="section-number">03 &mdash;&mdash;</span>
+        <div class="section-title-line">
+          <h2 class="section-title">About</h2>
+        </div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-accent"></div>
+        <div class="about-text fade-up">
+          <p>
+            I'm an <strong>electrical and computer engineering student at UW-Madison</strong>, building things at the intersection of circuits, embedded systems, practical software, and hardware repair.
+          </p>
+          <p>
+            Outside the lab, I cycle long distances, lift, and make technical videos about hardware builds and debugging.
+          </p>
+          <br>
+          <a href="about.html" class="btn btn-secondary">Full Bio &rarr;</a>
+        </div>
+        <div class="about-stats fade-up">
+          <div class="stat-item">
+            <span class="stat-value">ECE</span>
+            <span class="stat-label">Major &mdash; UW-Madison</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-value">200</span>
+            <span class="stat-label">KM Brevet Completed</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-value">&infin;</span>
+            <span class="stat-label">Systems To Debug</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <span class="footer-copy">&copy; 2025 Pranav Vishwas. All rights reserved.</span>
+    <span class="footer-mark">PORTFOLIO // V.01</span>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

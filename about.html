@@ -1,47 +1,203 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-page="about">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio &mdash; About</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section class="slide-in">
-            <h1>About Me</h1>
-            <br> </br>
-            <p>
-            My name is Pranav and I am a high school student who is passionate about computers, engineering, and technology. 
-            I have experience designing and creating projects and collaborating with others. 
-            In my free time, I enjoy recommending, refurbishing tech, tinkering with Mindstorms, and taking up other fun projects. 
-            I am particularly interested in electrical and computer engineering and plan to pursue a career in this field. 
-            I am dedicated to endurance cycling and fitness, always looking for new challenges and ways to stay active.
-            </p>
+  <div class="cursor" id="cursor"></div>
 
-            <br> </br>
-            <p>
-                Check out my <a href="https://www.youtube.com/@DPEIW/" target="_blank">YouTube channel</a> where I share my projects and creations!
-            </p>
+  <header>
+    <a href="index.html" class="nav-logo">PORTFOLIO</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-status">
+      <div class="status-dot"></div>
+      ONLINE // UW-MADISON
+    </div>
+  </header>
 
-        </section>
-    </main>
+  <main>
 
-    <footer>
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
-    </footer>
+    <!-- PAGE HERO -->
+    <div class="page-hero">
+      <div class="page-hero-stripe"></div>
+      <div class="page-hero-content">
+        <div class="page-hero-bg"></div>
+        <p class="page-hero-eyebrow">// RUNNER PROFILE &mdash; UPLINK ACTIVE</p>
+        <h1 class="page-hero-title">About<br><span style="color:var(--acid)">Me</span></h1>
+      </div>
+    </div>
 
-    <script src="script.js"></script>
+    <!-- PAGE BODY -->
+    <div class="page-content">
+      <div class="page-sidebar"></div>
+      <div class="page-body">
+
+        <!-- BIO -->
+        <div class="fade-up" style="margin-bottom: 4rem; max-width: 72ch;">
+          <p class="about-lead">
+            I'm an <strong>electrical and computer engineering student at UW-Madison</strong> who likes building at the point where circuits, embedded systems, and practical software meet.
+          </p>
+          <p class="about-copy">
+            A lot of my work starts with a real object in front of me - a PCB that needs another revision, a laptop that will not boot, a server that needs to be more reliable, or a thermal problem that needs measurement instead of guesswork. I enjoy the full loop of designing, building, testing, debugging, and then making the system cleaner on the next pass.
+          </p>
+          <p class="about-copy">
+            Right now, I am interested in vehicle electronics, power electronics, embedded hardware, self-hosted systems, and performance optimization.
+          </p>
+        </div>
+
+        <!-- SKILLS GRID -->
+        <div class="fade-up" style="margin-bottom: 4rem;">
+          <div style="display:flex; align-items:baseline; gap:1.5rem; margin-bottom:2rem;">
+            <span class="section-number">SKILLS &mdash;&mdash;</span>
+            <h2 class="section-title" style="font-size:1.8rem;">Technical Stack</h2>
+          </div>
+
+          <div class="about-skills-grid">
+            <div class="skill-cell">
+              <span class="skill-name">PCB Design</span>
+              <div class="skill-level"><div class="skill-level-fill" style="width:85%"></div></div>
+            </div>
+            <div class="skill-cell">
+              <span class="skill-name">Altium Designer</span>
+              <div class="skill-level"><div class="skill-level-fill" style="width:80%"></div></div>
+            </div>
+            <div class="skill-cell">
+              <span class="skill-name">Circuit Analysis</span>
+              <div class="skill-level"><div class="skill-level-fill" style="width:80%"></div></div>
+            </div>
+            <div class="skill-cell">
+              <span class="skill-name">Embedded Systems</span>
+              <div class="skill-level"><div class="skill-level-fill" style="width:78%"></div></div>
+            </div>
+            <div class="skill-cell">
+              <span class="skill-name">SMD Soldering</span>
+              <div class="skill-level"><div class="skill-level-fill" style="width:78%"></div></div>
+            </div>
+            <div class="skill-cell">
+              <span class="skill-name">ESP32 / Arduino</span>
+              <div class="skill-level"><div class="skill-level-fill" style="width:75%"></div></div>
+            </div>
+            <div class="skill-cell">
+              <span class="skill-name">Python</span>
+              <div class="skill-level"><div class="skill-level-fill" style="width:80%"></div></div>
+            </div>
+            <div class="skill-cell">
+              <span class="skill-name">Java</span>
+              <div class="skill-level"><div class="skill-level-fill" style="width:68%"></div></div>
+            </div>
+            <div class="skill-cell">
+              <span class="skill-name">Linux / Bash</span>
+              <div class="skill-level"><div class="skill-level-fill" style="width:78%"></div></div>
+            </div>
+            <div class="skill-cell">
+              <span class="skill-name">Docker / Proxmox</span>
+              <div class="skill-level"><div class="skill-level-fill" style="width:74%"></div></div>
+            </div>
+            <div class="skill-cell">
+              <span class="skill-name">ANSYS Fluent</span>
+              <div class="skill-level"><div class="skill-level-fill" style="width:72%"></div></div>
+            </div>
+            <div class="skill-cell">
+              <span class="skill-name">Fusion 360 / Blender</span>
+              <div class="skill-level"><div class="skill-level-fill" style="width:76%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ACTIVITIES -->
+        <div class="fade-up" style="margin-bottom: 4rem;">
+          <div style="display:flex; align-items:baseline; gap:1.5rem; margin-bottom:2rem;">
+            <span class="section-number">LIFE &mdash;&mdash;</span>
+            <h2 class="section-title" style="font-size:1.8rem;">Activities</h2>
+          </div>
+
+          <div class="activity-grid">
+            <div class="activity-card">
+              <span class="tac-label">Endurance</span>
+              <h3>Long-Distance Cycling</h3>
+              <p>Completed a 200 km Audax brevet and keep training for longer rides. It is a good outlet for patience, pacing, and stubbornness in useful quantities.</p>
+            </div>
+            <div class="activity-card">
+              <span class="tac-label">Training</span>
+              <h3>Strength Work</h3>
+              <p>Three-plus years of structured resistance training. It keeps me consistent, grounded, and very aware that small improvements compound. My PRs so far: 235lb bench, 290lb squat, 375lb deadlift </p>
+            </div>
+            <div class="activity-card">
+              <span class="tac-label">Making</span>
+              <h3>YouTube: DPEIW</h3>
+              <p>I make technical videos around hardware builds, system design, repairs, and debugging. It is part documentation, part learning-in-public.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- EDUCATION -->
+        <div class="fade-up" style="margin-bottom: 4rem;">
+          <div style="display:flex; align-items:baseline; gap:1.5rem; margin-bottom:2rem;">
+            <span class="section-number">EDU &mdash;&mdash;</span>
+            <h2 class="section-title" style="font-size:1.8rem;">Education</h2>
+          </div>
+          <div class="project-full-card">
+            <div style="display:flex; justify-content:space-between; align-items:start; flex-wrap:wrap; gap:1rem; margin-bottom:0.75rem;">
+              <h3 class="project-full-title">University of Wisconsin-Madison</h3>
+              <span class="tac-label">2025 &mdash; 2028</span>
+            </div>
+            <p class="project-full-desc">B.S. Electrical and Computer Engineering, with work across circuits, embedded systems, software, and hardware prototyping.</p>
+            <div class="project-tags" style="margin-top:1rem;">
+              <span class="project-tag">ECE</span>
+              <span class="project-tag">Wisconsin Racing</span>
+              <span class="project-tag">Hardware</span>
+            </div>
+          </div>
+          <div class="project-full-card">
+            <div style="display:flex; justify-content:space-between; align-items:start; flex-wrap:wrap; gap:1rem; margin-bottom:0.75rem;">
+              <h3 class="project-full-title">One World International School</h3>
+              <span class="tac-label">2023 &mdash; 2025</span>
+            </div>
+            <p class="project-full-desc">International Baccalaureate Diploma Programme, with higher-level coursework in Math AA, Physics, and Chemistry.</p>
+          </div>
+        </div>
+
+        <!-- RESUME -->
+        <div class="fade-up">
+          <div style="display:flex; align-items:baseline; gap:1.5rem; margin-bottom:2rem;">
+            <span class="section-number">CV &mdash;&mdash;</span>
+            <h2 class="section-title" style="font-size:1.8rem;">Resume</h2>
+          </div>
+          <div class="resume-panel">
+            <div class="resume-panel-head">
+              <div>
+                <h3>Pranav Vishwas Resume</h3>
+                <p>Embedded here for a quick look. Download the PDF if you want the full version.</p>
+              </div>
+              <a href="pranav_resume%20june%2026.pdf" download class="btn btn-primary">Download PDF</a>
+            </div>
+            <object class="resume-embed" data="pranav_resume%20june%2026.pdf" type="application/pdf">
+              <p class="project-full-desc">Your browser cannot display the embedded PDF. <a href="pranav_resume%20june%2026.pdf" download class="project-full-link">Download the resume instead &nbsp;&rarr;</a></p>
+            </object>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <span class="footer-copy">&copy; 2025 Pranav Vishwas. All rights reserved.</span>
+    <span class="footer-mark">PORTFOLIO // V.01</span>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
